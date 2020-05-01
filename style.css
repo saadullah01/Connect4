@@ -1,0 +1,323 @@
+@font-face {
+	src: url(fonts/October.ttf);
+	font-family: myFont
+}
+
+body{
+	background-color: #7EF6E9;
+}
+/*1st Page*/
+.root1{
+	width: 100%;
+	margin: 0 auto;
+}
+.subroot1{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 1%;
+}
+.header{
+	width: 100%;
+	border: 3px solid grey;
+	margin: 0 auto;
+	text-align: center;
+	border-top-left-radius: 60px;
+	border-bottom-left-radius: 60px;
+	border-top-right-radius: 100px;
+	background-color: grey;
+	height: 100px;
+}
+.round{
+	transition: all 1s ease-in-out;
+	float: left;
+	margin-left: 1%;
+	border: 1px solid #7EF6E9;
+	border-radius: 100%;
+	color: grey;
+	font-style: italic;
+	font-weight: bold;
+	font-family: accent;
+	font-size: 300%;
+	background-color: #7EF6E9;
+	margin-top: 8.5px;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+}
+.round p{
+	margin: 0 auto;
+	margin-top: 15%;
+}
+.heading{
+	float: left;
+	padding-left: 33%;
+	font-style: italic;
+	font-weight: bold;
+	font-family: accent;
+	font-size: 300%;
+	color: #7EF6E9;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.design{
+	transition: 1s;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 1%;
+}
+.b1,.b2,.b3,.b4{
+	border: 2px solid grey;
+	border-radius: 80px;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	background-color: grey;
+}
+.b1p,.b2p,.b3p,.b4p{
+	font-size: 50px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: accent;
+	margin: 0 auto;
+	padding-top: 10px;
+	color: #7EF6E9;
+}
+.b1,.b2{
+	float: left;
+}
+.b3,.b4{
+	float: right;
+}
+.subroot1:hover .design{
+	width: 27.7%;
+}
+.subroot1:hover .round{
+	transform: rotate(360deg);
+}
+.subroot2{
+	clear: both;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.des{
+	float: left;
+	width: 40%;
+	height: 100px;
+	text-align: center;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+.description p{
+	font-size: 35px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: accent;
+	color: grey;
+}
+.options{
+	width: 90%;
+	margin: 0 auto;
+}
+.bt1,.bt2{
+	width: 100%;
+	height: 50px;
+	background-color: grey;
+	border: 1px solid grey;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: calibri;
+	color: #7EF6E9;
+	border-radius: 20px;
+}
+.bt2{
+	margin-top: 3%;
+}
+.login{
+	float: right;
+	margin: 0 auto;
+	width: 40%;
+	border: 2px solid grey;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	margin-right: 5%;
+	background-color: grey;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.loginP{
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: accent;
+	color: #7EF6E9;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+.in{
+	width: 80%;
+	margin: 0 auto;
+	text-align: left;
+}
+.userP,.passP{
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: accent;
+	color: lightgrey;
+	margin: 0 auto;
+}
+.userP{
+	margin-top: 6%;
+}
+.passP{
+	margin-top: 6%;
+}
+.username,.password{
+	width: 100%;
+	height: 35px;
+	background-color: lightgrey;
+	border: 1px solid grey;
+	border-radius: 20px;
+	text-align: center;
+	font-family: calibri;
+}
+.btn{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-family: calibri;
+	font-style: italic;
+	font-weight: bold;
+	margin: 0 auto;
+	margin-top: 10%;
+	color: grey;
+	background-color: lightgrey;
+	border: 1px solid grey;
+	border-radius: 10px;
+	font-size: 35px;
+}
+/*2nd Page*/
+.root2{
+	width: 100%;
+	margin: 0 auto;
+}
+.player1, .player2{
+	position: absolute;
+	top: 235px;
+	width: 200px;
+	height: 200px;
+	border: 0px solid rgba(0,0,0,0);
+	border-radius: 100%;
+	text-align: center;
+	z-index: 10;
+}
+.player1{
+	left: 50px;
+}
+.player2{
+	right: 50px;
+}
+.player1 img, .player2 img{
+	display: inline-block;
+	margin-top: 12%;
+}
+.player1 p, .player2 p{
+	margin: 0 auto;
+	font-style: italic;
+	font-weight: bold;
+	font-family: accent;
+	color: white;
+	font-size: 25px;
+}
+#container{
+	width: 40%;
+	height: 420px;
+	margin: 0 auto;
+}
+.scoreBoard{
+	position: absolute;
+	bottom: 30px;
+	left: 570px;
+	width: 200px;
+	height: 50px;
+	border: 1px solid rgba(0,0,0,0);
+	border-radius: 10px;
+	text-align: center;
+}
+.scoreBoard p{
+	font-style: italic;
+	font-weight: bold;
+	font-family: accent;
+	color: white;
+	font-size: 30px;
+	margin: 0 auto;
+	margin-top: 4%;
+}
+.winlose{
+	transition: 1s;
+	position: absolute;
+	top: 213px;
+	left: 0px;
+	width: 100%;
+	height: 250px;
+	opacity: 0.9;
+	text-align: center;
+	z-index: 1;
+}
+.winlose p{
+	margin: 0 auto;
+	margin-top: 6.5%;
+	display: inline-block;
+	font-style: italic;
+	font-weight: bold;
+	font-family: accent;
+	color: white;
+	font-size: 70px;
+}
+.uppercol {
+	background: rgba(0,0,0,0);
+	width: 13.5%;
+	height: 500px;
+	float: left;
+	text-align: center;
+}
+.ball {
+	border: 0px solid rgba(0,0,0,0);
+	border-radius: 100%;
+	width: 90%;
+	height: 13%;
+	margin-bottom: 10%;
+	margin-top: 60%;
+	display: inline-block;
+}
+.col {
+	width: 100%;
+	margin: 0 auto;
+	height: 420px;
+}
+#col1 {
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+#col7 {
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.row {
+	width: 100%;
+	margin: 0 auto;
+	height: 16.5%;
+	text-align: center;
+}
+.rowinside {
+	background-color: white;
+	width: 75%;
+	height: 75%;
+	border: 2px solid black;
+	border-radius: 100%;
+	text-align: center;	
+	display: inline-block;
+	margin-top: 12.5%;
+}
